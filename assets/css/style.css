@@ -1,0 +1,504 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0% !important;
+        padding: 0px !important;
+    }
+    header, .contentlogo  {
+        display: none !important;
+
+     }
+    
+   
+    .cuerpo .contenido{
+        margin-left: 0% !important;
+        padding-left: 0% !important;
+        margin-top: 0px;
+       
+        
+        
+    }
+    
+.logoResponsive {
+    align-items: center;
+    margin-left:  67px;
+  
+    display: inline !important
+}
+
+iframe {
+    width: 200px;
+    height: 170px;
+    margin-left: 20px;
+}
+#contactUs {
+    margin-left: -120px;
+    text-align: center;
+   
+}
+body > .cuerpo {
+   
+    margin: 0px !important;
+    padding: 0px !important;
+ 
+    /* width: 100vw; */
+    height: 100vh;
+}
+.contenido {
+   
+    margin-left: 0px;
+    float: auto;
+    /* width: 100vw; */
+    height: 0px;
+    padding-top: 7%;
+   
+}
+   
+    .grid-container {
+        width: 70vw !important;
+        margin-left: -60px;
+        display: grid;
+border: 0px;        
+grid-template-columns: auto !important;
+        /* grid-gap: 5px;   */
+        padding: 0px;
+        grid-gap: 0px;
+       
+    }
+
+    .grid-container > div {
+    
+        grid-column: auto;
+        grid-row: auto;
+    padding: 10px;
+   
+    }
+
+    label,  #pUnica, b {
+        font-size: 0.50pc;
+    }
+    
+    /* label {
+        float: left;
+    }
+
+    input {
+        float: left;
+    } */
+    #deReglas {
+        font-size: 0.90pc;
+        margin-left: -100px;
+    }
+  
+    /* .grid-1 {
+    
+        grid-column: 1  !important;
+        grid-row: 1;   
+    }
+    
+    .grid-2 {
+        grid-column: 1  !important;
+        grid-row: 2 !important;   
+    }
+    .grid-3 {
+        grid-column: 1  !important;
+        grid-row: 3 !important;   
+    }
+    .grid-4 {
+        grid-column: 1  !important;
+        grid-row: 4 !important;   
+    }
+    .grid-5 {
+        grid-column: 1  !important;
+        grid-row: 5 !important;   
+    }
+    .grid-6 {
+        grid-column: 1  !important;
+        grid-row: 6 !important;   
+    }
+    .grid-7 {
+        grid-column: 1  !important;
+        grid-row: 7 !important;   
+    }
+    .grid-8 {
+        grid-column: 1  !important;
+        grid-row: 8 !important;   
+    }
+    .grid-9 {
+        grid-column: 1  !important;
+        grid-row: 9 !important;   
+    }  
+    .grid-10 {
+        grid-column: 1  !important;
+        grid-row: 10 !important;   
+    }
+    .grid-11 {
+        grid-column: 1  !important;
+        grid-row: 11 !important;   
+    }
+    .grid-12 {
+        grid-column: 1  !important;
+        grid-row: 12 !important;   
+    }
+    .grid-13 {
+        grid-column: 1  !important;
+        grid-row: 13 !important;   
+    }
+    .grid-14 {
+        grid-column: 1  !important;
+        grid-row: 14 !important;   
+    }
+    .grid-15 {
+        grid-column: 1  !important;
+        grid-row: 15 !important;   
+    } */
+
+    .tablaGrid {
+        width: 60% !important;
+    }
+    
+}
+
+
+
+.logoResponsive {
+    align-items: center;
+    display: none;
+}
+
+header {
+    margin: 2% ;
+    width: 95vw;
+    height: 35vh;
+    /* border: red solid 1px */
+}
+
+.grid-container {
+    display: grid;
+    /* padding: 40px; */
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+   
+}
+
+.grid-container > div {
+    
+    padding-left: 12px;
+    padding-top: 12px;
+   
+}
+.miUbicacion {
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+.grid-1 {
+    
+    grid-column: 1 / span 1;
+    grid-row: 1;
+
+   
+}
+
+.grid-2 {
+    grid-column: 2   / span 1;
+    grid-row: 1;
+    
+}
+
+.grid-3 {
+    grid-column: 1   / span 2;
+    grid-row: 2;
+}
+
+.grid-4 {
+   
+        grid-column: 1   / span 1;
+        grid-row: 3;
+        
+}
+.grid-5 {
+   
+    grid-column: 2   / span 1;
+    grid-row: 3;
+    
+}
+
+.grid-6 {
+   
+    grid-column: 1   / span 1;
+    grid-row: 4;
+    
+}
+.grid-7 {
+
+grid-column: 2   / span 1;
+grid-row: 4;
+
+}
+
+.grid-8 {
+    grid-column: 1   / span 2;
+    grid-row: 5;
+}
+
+.grid-9 {
+    grid-column: 1   / span 2;
+    grid-row: 6;
+}
+.grid-10 {
+    grid-column: 1   / span 2;
+    grid-row: 7;
+}
+.grid-11 {
+    grid-column: 1   / span 2;
+    grid-row: 8;
+}
+.grid-12 {
+    grid-column: 1   / span 2;
+    grid-row: 9;
+}
+
+.grid-13 {
+   
+    grid-column: 1   / span 1;
+    grid-row: 10;
+    
+}
+.grid-14 {
+
+grid-column: 2   / span 1;
+grid-row: 10;
+
+}
+.grid-15 {
+    text-align: center;
+    grid-column: 1   / span 2;
+    grid-row: 11;
+}
+
+h3, h4, h5 {
+    text-align: center;
+}
+p{
+    margin-left: 25px;
+}
+
+
+.tabla table td, th{
+    
+    border: 1px solid black;
+    padding: 8px;
+    vertical-align: top;
+    
+}
+
+.tablaRegistro {
+    padding: 8px;
+    vertical-align: top;
+
+}
+
+.tablaRegistro table {
+    margin: auto;
+    width: 80%;
+}
+.tabla p {
+    margin: 0px;
+    text-indent: 0px;
+}
+.linea dd,dt {
+    display: inline;
+}
+
+
+
+.sinPadding {
+    padding-left: 0px;
+}
+.tabla table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;  
+}
+
+
+#unico td {
+    border: 0px;
+}
+
+/* table td th {
+    border: 1px solid black;
+} */
+.contenido h3 {
+    text-align: left;
+}
+#deReglas {
+    text-align: center;
+}
+dl {
+   
+    margin-bottom: 15px;
+}
+ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+/* p {
+    padding-left: 25px;
+} */
+
+.titulo {
+    /* border:coral solid 1px */
+    font-size: 1.50em;
+}
+
+
+
+.banner {
+    /* border: darkmagenta solid 1px; */
+    width: 100%;
+    height: 170px;
+   
+    background-image: url(../images/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 3% 3%;
+
+    }
+
+
+.banner .enlaces {
+    color: white;
+  
+}
+
+    .enlaces button {
+        
+        /* formato de los botones */
+       
+        border: 2px black solid;
+        margin-right: 20px;
+        background-color: blue;
+        padding: 5px 10px;
+        box-shadow: 5px 5px 5px black;
+        float: right;
+        margin-top: -2%;
+    }
+
+ #activo {
+    background-color:green;
+}
+    
+    a:link {
+        text-decoration:none;
+        color: white;
+}
+       
+        
+.enlaces a {
+    color: white;
+    
+}
+
+ 
+
+
+ 
+
+   /* a:default {
+        background-color: blue;
+    } */
+
+.cintillo {
+    text-align: center;
+    border: 2px black solid;
+    font-size: 1.4em;
+   
+}
+.cuerpo {
+    margin: 2% ;
+    width: 95vw;
+    height: 60vh;
+    /* border: red solid 1px */
+}
+
+    .contentlogo {
+        /* border: darkolivegreen solid 1px; */
+        float: left;
+        height: 100%;
+        width: 25%;
+        align-items: center;
+        margin-top: 7%;
+       
+      
+      
+     
+    }
+    #unico  {
+        text-align: left;
+       
+    }        
+     
+    .contenido {
+        
+         
+            height: 100%;
+            width: 70%;
+       
+            padding-top: 7%;
+            float: right;
+    }
+    .contenido a{
+        
+        color:  blue;
+        text-decoration:underline;
+
+    }
+
+    dt {
+        font-weight: bold;
+    }
+    
+ .juntos dl dt dd {
+     display: inline;
+
+ }
+
+.tablaGrid {
+    width: 100%;
+  
+}
+
+
+ #pUnica {
+     margin-left: 0px;
+     text-align: justify;
+     margin-right: 10px;
+ }
+    
+    #enLetras {
+        margin-left: 30px;
+        margin-top: 12px;
+    }
+    .individuales {
+        margin-left: 0px;
+    }
+    .individuales dd {
+        margin-left: 15px;
+       
+    }
+    .individuales li {
+        margin-left: 30px;
+    }
